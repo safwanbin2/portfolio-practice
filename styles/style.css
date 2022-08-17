@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.dark-bg{
+    background-color: #3A3A3A;
+}
+small{
+    font-weight: 700;
+}
+nav .container{
+    padding: 0;
+}
+#hero .container{
+    padding: 7rem 0;
+}
+.green-text{
+    color: #BDFF00;
+}
+.brand-name{
+
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 900;
+}
+.green-cta{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: .8rem 1.5rem;
+    border-radius: 5px;
+    background-color: #BDFF00;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+}
+.green-cta:hover{
+    background-color: transparent;
+    border: 1px solid #BDFF00;
+    color: #BDFF00;
+}
+.cream-cta{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: .8rem 1.5rem;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+}
+.cream-cta:hover{
+    border: 1px solid #D9D9D9;
+    background-color: transparent;
+    color: #D9D9D9;
+}
+#about{
+    margin: 5rem 0;
+}
+#about .container{
+    margin-top: 2rem;
+}

@@ -60,3 +60,19 @@ nav .container{
 #about .container{
     margin-top: 2rem;
 }
+.skills .span{
+    height: 4px;
+    width: 100%;
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .green-cta, .cream-cta{
+        font-size: .8rem;
+    }
+}

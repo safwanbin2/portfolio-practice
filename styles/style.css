@@ -6,6 +6,9 @@
 .dark-bg{
     background-color: #3A3A3A;
 }
+.green-bg{
+    background-color: #BDFF00;
+}
 small{
     font-weight: 700;
 }
@@ -60,13 +63,29 @@ nav .container{
 #about .container{
     margin-top: 2rem;
 }
-.skills .span{
-    height: 4px;
-    width: 100%;
-    background-color: greenyellow;
+#portfolio-skill{
+    background-image: linear-gradient(to bottom, #BDFF00, #3a3a3ad7, #3A3A3A);
 }
-
-
+.skills span > span{
+    display: inline-block;
+    height: 10px;
+    background-color: #BDFF00;
+}
+.html span > span{
+    width: 95%;
+}
+.css span > span{
+    width: 90%;
+}
+.bootstrap span > span{
+    width: 80%;
+}
+.tailwind span > span{
+    width: 80%;
+}
+.js span > span{
+    width: 40%;
+}
 
 
 
@@ -74,5 +93,8 @@ nav .container{
 @media screen and (max-width:576px) {
     .green-cta, .cream-cta{
         font-size: .8rem;
+    }
+    .btn-group{
+        
     }
 }

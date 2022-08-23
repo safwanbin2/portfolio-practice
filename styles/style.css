@@ -58,6 +58,40 @@ nav .container{
     background-color: transparent;
     color: #D9D9D9;
 }
+.animated{
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: .5s;
+}   
+.animated span{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #BDFF00;
+    animation: text_reveal_box 1s ease;
+    animation-delay: .5s;
+}
+.animated-reverse{
+    display: inline-block;
+    position: relative;
+    color: transparent;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: 2s;
+}
+.animated-reverse span{
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    background-color: #BDFF00;
+    animation: text_reveal_box_backword 1s ease;
+    animation-delay: 2s;
+}
 
 #about{
     margin: 5rem 0;
@@ -115,3 +149,28 @@ nav .container{
     }
 }
 
+@keyframes text_reveal_box {
+    from{
+        left: 0;
+        width: 100%;
+    }
+    to{
+        left: 100%;
+        width: 0;
+    }
+}
+@keyframes text_reveal_box_backword {
+    from{
+        right: 0;
+        width: 100%;
+    }
+    to{
+        right: 100%;
+        width: 0;
+    }
+}
+@keyframes text_reveal {
+    to{
+        color: white;
+    }
+}

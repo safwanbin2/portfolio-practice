@@ -36,6 +36,7 @@ nav .container{
     background-color: #BDFF00;
     border: 1px solid transparent;
     transition: all .3s ease;
+    margin-right: 1rem;
 }
 .green-cta:hover{
     background-color: transparent;
@@ -93,8 +94,11 @@ nav .container{
 @media screen and (max-width:576px) {
     .green-cta, .cream-cta{
         font-size: .8rem;
+        margin: .5rem 0;
     }
     .btn-group{
-        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }

@@ -89,7 +89,12 @@ nav .container{
 .js span > span{
     width: 40%;
 }
-
+#works .container img{
+    transition: .3s ease;
+}
+#works .container img:hover{
+    transform: translateX(15px);
+}
 .social-links{
     display: flex;
     flex-direction: column;

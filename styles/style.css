@@ -72,6 +72,7 @@ nav .container{
     display: inline-block;
     height: 10px;
     background-color: #BDFF00;
+    box-shadow: 20px 5px 40px 10px #BDFF00;
 }
 .html span > span{
     width: 95%;
@@ -105,12 +106,7 @@ nav .container{
 @media screen and (max-width:576px) {
     .green-cta, .cream-cta{
         font-size: .8rem;
-        margin: .5rem 0;
-    }
-    .btn-group{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        padding: 10px 20px;
     }
 }
 
